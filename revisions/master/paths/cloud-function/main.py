@@ -7,6 +7,7 @@ def hello_world(request):
         Response object using
         `make_response <http://flask.pocoo.org/docs/0.12/api/#flask.Flask.make_response>`.
         just making a change to test Cloud Build triggers
+        This is a change to test Cloud build
     """
     request_json = request.get_json()
     if request.args and 'message' in request.args:
