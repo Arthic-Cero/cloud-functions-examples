@@ -1,1 +1,2 @@
 This is a test file to check build triggers conditions
+This change should not trigger a build now that we added included files in the trigger
